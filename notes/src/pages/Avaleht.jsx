@@ -1,10 +1,9 @@
 import { IonButtons, IonContent, IonHeader, IonMenuButton, IonPage, IonTitle, IonToolbar } from '@ionic/react';
+import { IonButton } from '@ionic/react';
 
 
-const Page = () => {
+const Avaleht = () => {
 
- 
-  
   return (
     <IonPage>
       <IonHeader>
@@ -12,20 +11,22 @@ const Page = () => {
           <IonButtons slot="start">
             <IonMenuButton />
           </IonButtons>
-          <IonTitle>IPHONE PEALKIRI</IonTitle>
+          <IonTitle>Avaleht</IonTitle>
         </IonToolbar>
       </IonHeader>
 
       <IonContent fullscreen>
         <IonHeader collapse="condense">
           <IonToolbar>
-            <IonTitle size="large">ANDROID PEALKIRI</IonTitle>
+            <IonTitle size="large">Avaleht</IonTitle>
           </IonToolbar>
         </IonHeader>
+        <IonButton routerLink="/page/meist">Mine vaata infot meist</IonButton>
+        
         
       </IonContent>
     </IonPage>
   );
 };
 
-export default Page;
+export default Avaleht;

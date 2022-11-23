@@ -3,8 +3,8 @@ import { IonButtons, IonContent, IonHeader, IonMenuButton, IonPage, IonTitle, Io
 
 const Page = () => {
 
- 
-  
+
+
   return (
     <IonPage>
       <IonHeader>
@@ -22,7 +22,7 @@ const Page = () => {
             <IonTitle size="large">ANDROID PEALKIRI</IonTitle>
           </IonToolbar>
         </IonHeader>
-        
+
       </IonContent>
     </IonPage>
   );

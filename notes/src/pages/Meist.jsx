@@ -28,7 +28,7 @@ const Page = () => {
 
         <IonCard>
             <img alt="Silhouette of mountains" src= "https://www.helpguide.org/wp-content/uploads/woman-mixing-ingredients-and-vegetables-in-pan-while-preparing-lunch-768.jpg" />
-            <IonCardHeader>
+           <IonCardHeader>
               <IonCardTitle>Meie rakendus</IonCardTitle>
               <IonCardSubtitle>Siin on kirjeldus</IonCardSubtitle>
             </IonCardHeader>
