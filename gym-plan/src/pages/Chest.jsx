@@ -4,29 +4,9 @@ import {StreamingMedia  } from '@awesome-cordova-plugins/streaming-media';
 
 const Page = () => {
 
-  // constructor(private streamingMedia: StreamingMedia) { }
-
-  // let options: StreamingVideoOptions = {
-  //   successCallback: () => { console.log('Video played') },
-  //   errorCallback: (e) => { console.log('Error streaming') },
-  //   orientation: 'landscape',
-  //   shouldAutoClose: true,
-  //   controls: false
-  // };
+ 
   
-  // this.streamingMedia.playVideo('https://path/to/video/stream', options);
 
-const openVideo  =  () => { 
-  let options = {
-    successCallback: () => { console.log('Video played') },
-    errorCallback: (e) => { console.log('Error streaming') },
-    orientation: 'landscape',
-    shouldAutoClose: true,
-    controls: false
-  };
-StreamingMedia.playVideo("/assets/videos/bench press.mov",options)
-  
-};
 
   return (
     <IonPage>
@@ -57,9 +37,9 @@ StreamingMedia.playVideo("/assets/videos/bench press.mov",options)
         <IonList>
           <IonItem>
             <IonThumbnail slot="start">
-              <img onClick = {openVideo}  alt="Silhouette of mountains" src="/assets/pildid/bench press.jpeg" />
+              <img   alt="Silhouette of mountains" src="/assets/pildid/bench press.jpeg" />
             </IonThumbnail>
-            <IonLabel text-wrap>1. Bench press 4x8</IonLabel><IonButton onClick={openVideo}>▶</IonButton>
+            <IonLabel text-wrap>1. Bench press 4x8</IonLabel>
           </IonItem>
 
           <IonItem>

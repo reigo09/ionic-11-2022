@@ -13,3 +13,8 @@ ion-card ion-item::part(native) {
 @media only screen and (max-width: 375px) {
  
 }
+.item ion-thumbnail {
+  min-width: 8rem;    
+  min-height: 8rem;
+ 
+}

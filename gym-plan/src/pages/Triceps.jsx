@@ -83,7 +83,7 @@ const Page = () => {
 
           <IonItem>
             <IonThumbnail slot="start">
-              <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/thumbnail.svg" />
+              <img alt="Silhouette of mountains" src="assets/pildid/ttt.jpeg" />
             </IonThumbnail>
             <IonLabel text-wrap>3. Overhead Triceps Extension 4x8</IonLabel>
           </IonItem>
