@@ -1,0 +1,15 @@
+.keskele {
+  text-align: center;
+}
+
+ion-thumbnail {
+   margin-inline: 0px 10px; 
+  }
+
+ion-card ion-item::part(native) {
+  padding-inline-start: 0px;
+}
+
+@media only screen and (max-width: 375px) {
+ 
+}

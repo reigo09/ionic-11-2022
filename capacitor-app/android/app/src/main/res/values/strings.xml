@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">reigo-ionic</string>
+    <string name="title_activity_main">reigo-ionic</string>
+    <string name="package_name">com.reigo.ionic</string>
+    <string name="custom_url_scheme">com.reigo.ionic</string>
+</resources>

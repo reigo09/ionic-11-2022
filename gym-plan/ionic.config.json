@@ -1,0 +1,7 @@
+{
+  "name": "GymPlan",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
