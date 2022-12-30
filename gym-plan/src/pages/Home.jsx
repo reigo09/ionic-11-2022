@@ -40,7 +40,7 @@ const Home = () => {
 
       <IonCardContent  style = {{color:"black"}}>
       Our goal is for you to have professional training plans to help you achieve your goals.
-      We have over 80 exercises to choose from.
+      We have over 75 exercises to choose from.
         </IonCardContent>
         
         </IonCard>
