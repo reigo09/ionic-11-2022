@@ -43,7 +43,7 @@ const Page = () => {
             <IonThumbnail slot="start">
               <img alt="Silhouette of mountains" src="/assets/pildid/SLRDL.jpg" />
             </IonThumbnail>
-            <IonLabel text-wrap>2. Single leg RDL 4x8</IonLabel>
+            <IonLabel text-wrap>2. Single-leg RDL 4x8</IonLabel>
           </IonItem>
 
           <IonItem>
@@ -88,7 +88,7 @@ const Page = () => {
             <IonThumbnail slot="start">
               <img alt="Silhouette of mountains" src="/assets/pildid/pepu.jpg" />
             </IonThumbnail>
-            <IonLabel text-wrap>3. Glute focus back extension 4x8</IonLabel>
+            <IonLabel text-wrap>3. Glute-focused back extension 4x8</IonLabel>
           </IonItem>
 
      

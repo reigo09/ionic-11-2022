@@ -56,7 +56,7 @@ const Page = () => {
             <IonThumbnail slot="start">
               <img alt="Silhouette of mountains" src="assets/pildid/olg7.jpg" />
             </IonThumbnail>
-            <IonLabel text-wrap>4. Reverse cable flye 4x8</IonLabel>
+            <IonLabel text-wrap>4. Reverse cable fly 4x8</IonLabel>
           </IonItem>
         </IonList>
       </IonCardContent>
@@ -76,7 +76,7 @@ const Page = () => {
             <IonThumbnail slot="start">
               <img alt="Silhouette of mountains" src="/assets/pildid/BB press.jpg" />
             </IonThumbnail>
-            <IonLabel text-wrap>1. BB press 4x8</IonLabel>
+            <IonLabel text-wrap>1. BB shoulder press 4x8</IonLabel>
           </IonItem>
 
           <IonItem>

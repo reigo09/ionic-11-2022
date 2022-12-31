@@ -42,7 +42,7 @@ const Page = () => {
             <IonThumbnail slot="start">
               <img alt="Silhouette of mountains" src="/assets/pildid/legex.jpg" />
             </IonThumbnail>
-            <IonLabel text-wrap>2. Leg Extension 4x8</IonLabel>
+            <IonLabel text-wrap>2. Leg extension 4x8</IonLabel>
           </IonItem>
 
           <IonItem>
@@ -93,7 +93,7 @@ const Page = () => {
             <IonThumbnail slot="start">
               <img alt="Silhouette of mountains" src="/assets/pildid/RD.jpg" />
             </IonThumbnail>
-            <IonLabel text-wrap>2. Romanian Deadlift 4x8</IonLabel>
+            <IonLabel text-wrap>2. Romanian deadlift 4x8</IonLabel>
           </IonItem>
 
           <IonItem>
@@ -146,7 +146,7 @@ const Page = () => {
             <IonThumbnail slot="start">
               <img alt="Silhouette of mountains" src="/assets/pildid/SLRDL.jpg" />
             </IonThumbnail>
-            <IonLabel text-wrap>3. Single leg RDL 4x8</IonLabel>
+            <IonLabel text-wrap>3. Single-leg RDL 4x8</IonLabel>
           </IonItem>
 
           <IonItem lines="none">
