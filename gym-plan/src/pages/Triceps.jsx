@@ -71,7 +71,7 @@ const Page = () => {
             <IonThumbnail slot="start">
               <img alt="Silhouette of mountains" src="assets/pildid/tric1.jpg" />
             </IonThumbnail>
-            <IonLabel text-wrap>1. Cable rope pressdown 4x8</IonLabel>
+            <IonLabel text-wrap>1. Cable rope pressdown 4x10</IonLabel>
           </IonItem>
 
           <IonItem>
