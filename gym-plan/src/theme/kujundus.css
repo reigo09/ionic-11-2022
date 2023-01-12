@@ -14,11 +14,11 @@ ion-card ion-item::part(native) {
  
 }
 .item ion-thumbnail {
-  min-width: 8rem;    
-  min-height: 8rem;
+  min-width: 11rem;    
+  min-height: 11rem;
  
 }
 
 ion-label {
-  font-size: 20px !important;
+  font-size: 22px !important;
 }
