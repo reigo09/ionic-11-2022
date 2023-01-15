@@ -1,5 +1,5 @@
-import { IonButtons, IonContent, IonHeader, IonMenuButton, IonPage, IonTitle, IonToolbar } from '@ionic/react';
-import { IonCard, IonCardContent, IonCardHeader, IonCardTitle, IonItem, IonLabel, IonList, IonThumbnail } from '@ionic/react';
+import { IonButtons, IonContent, IonHeader,IonCheckbox, IonMenuButton, IonPage, IonTitle, IonToolbar } from '@ionic/react';
+import { IonCard, IonCardContent, IonCardHeader, IonCardTitle, IonItem,IonInput, IonLabel, IonList, IonThumbnail } from '@ionic/react';
 
 
 const Page = () => {
@@ -35,28 +35,40 @@ const Page = () => {
             <IonThumbnail slot="start">
               <img alt="Silhouette of mountains" src="/assets/pildid/olg1.jpg" />
             </IonThumbnail>
-            <IonLabel text-wrap>1. Dumbbell shoulder press 4x8</IonLabel>
+            <IonLabel text-wrap>1. Dumbbell shoulder press 4x8 <IonCheckbox slot="start"></IonCheckbox><IonItem>
+        
+        <IonInput placeholder="Enter comment"></IonInput>
+      </IonItem></IonLabel>
           </IonItem>
 
           <IonItem>
             <IonThumbnail slot="start">
               <img alt="Silhouette of mountains" src="assets/pildid/olg6.jpg" />
             </IonThumbnail>
-            <IonLabel text-wrap>2. Cable lateral raise 4x8</IonLabel>
+            <IonLabel text-wrap>2. Cable lateral raise 4x8 <IonCheckbox slot="start"></IonCheckbox><IonItem>
+        
+        <IonInput placeholder="Enter comment"></IonInput>
+      </IonItem></IonLabel>
           </IonItem>
 
           <IonItem>
             <IonThumbnail slot="start">
               <img alt="Silhouette of mountains" src="assets/pildid/olg4.jpg" />
             </IonThumbnail>
-            <IonLabel text-wrap>3. Front raise 4x8</IonLabel>
+            <IonLabel text-wrap>3. Front raise 4x8 <IonCheckbox slot="start"></IonCheckbox><IonItem>
+        
+        <IonInput placeholder="Enter comment"></IonInput>
+      </IonItem></IonLabel>
           </IonItem>
 
           <IonItem lines="none">
             <IonThumbnail slot="start">
               <img alt="Silhouette of mountains" src="assets/pildid/olg7.jpg" />
             </IonThumbnail>
-            <IonLabel text-wrap>4. Reverse cable fly 4x8</IonLabel>
+            <IonLabel text-wrap>4. Reverse cable fly 4x8 <IonCheckbox slot="start"></IonCheckbox><IonItem>
+        
+        <IonInput placeholder="Enter comment"></IonInput>
+      </IonItem></IonLabel>
           </IonItem>
         </IonList>
       </IonCardContent>
@@ -67,7 +79,10 @@ const Page = () => {
 
     <IonCard>
       <IonCardHeader>
-        <IonCardTitle color ="tertiary">Shoulders  day 2</IonCardTitle>
+        <IonCardTitle color ="tertiary">Shoulders  day 2 <IonCheckbox slot="start"></IonCheckbox><IonItem>
+        
+        <IonInput placeholder="Enter comment"></IonInput>
+      </IonItem></IonCardTitle>
         {/* <IonCardSubtitle>Card Subtitle</IonCardSubtitle> */}
       </IonCardHeader>
       <IonCardContent>
@@ -76,28 +91,40 @@ const Page = () => {
             <IonThumbnail slot="start">
               <img alt="Silhouette of mountains" src="/assets/pildid/BB press.jpg" />
             </IonThumbnail>
-            <IonLabel text-wrap>1. BB shoulder press 4x8</IonLabel>
+            <IonLabel text-wrap>1. BB shoulder press 4x8 <IonCheckbox slot="start"></IonCheckbox><IonItem>
+        
+        <IonInput placeholder="Enter comment"></IonInput>
+      </IonItem></IonLabel>
           </IonItem>
 
           <IonItem>
             <IonThumbnail slot="start">
               <img alt="Silhouette of mountains" src="assets/pildid/olg3.jpg" />
             </IonThumbnail>
-            <IonLabel text-wrap>2. Upright barbell row 4x8</IonLabel>
+            <IonLabel text-wrap>2. Upright barbell row 4x8 <IonCheckbox slot="start"></IonCheckbox><IonItem>
+        
+        <IonInput placeholder="Enter comment"></IonInput>
+      </IonItem></IonLabel>
           </IonItem>
 
           <IonItem>
             <IonThumbnail slot="start">
               <img alt="Silhouette of mountains" src="assets/pildid/olg5.jpg" />
             </IonThumbnail>
-            <IonLabel text-wrap>3. Rear delt fly 4x8</IonLabel>
+            <IonLabel text-wrap>3. Rear delt fly 4x8 <IonCheckbox slot="start"></IonCheckbox><IonItem>
+        
+        <IonInput placeholder="Enter comment"></IonInput>
+      </IonItem></IonLabel>
           </IonItem>
 
           <IonItem lines="none">
             <IonThumbnail slot="start">
               <img alt="Silhouette of mountains" src="assets/pildid/olg8.jpg" />
             </IonThumbnail>
-            <IonLabel text-wrap>4. Front cable raise 4x8</IonLabel>
+            <IonLabel text-wrap>4. Front cable raise 4x8 <IonCheckbox slot="start"></IonCheckbox><IonItem>
+        
+        <IonInput placeholder="Enter comment"></IonInput>
+      </IonItem></IonLabel>
           </IonItem>
         </IonList>
       </IonCardContent>
@@ -119,21 +146,30 @@ const Page = () => {
             <IonThumbnail slot="start">
               <img alt="Silhouette of mountains" src="assets/pildid/olg2.jpg" />
             </IonThumbnail>
-            <IonLabel text-wrap>1. Arnold press 4x8</IonLabel>
+            <IonLabel text-wrap>1. Arnold press 4x8 <IonCheckbox slot="start"></IonCheckbox><IonItem>
+        
+        <IonInput placeholder="Enter comment"></IonInput>
+      </IonItem></IonLabel>
           </IonItem>
 
           <IonItem>
             <IonThumbnail slot="start">
               <img alt="Silhouette of mountains" src="/assets/pildid/lendamine.jpg" />
             </IonThumbnail>
-            <IonLabel text-wrap>2. Side lateral raise 4x8</IonLabel>
+            <IonLabel text-wrap>2. Side lateral raise 4x8 <IonCheckbox slot="start"></IonCheckbox><IonItem>
+        
+        <IonInput placeholder="Enter comment"></IonInput>
+      </IonItem></IonLabel>
           </IonItem>
 
           <IonItem>
             <IonThumbnail slot="start">
               <img alt="Silhouette of mountains" src="/assets/pildid/facepull.jpg" />
             </IonThumbnail>
-            <IonLabel text-wrap>3. Face pull 4x8</IonLabel>
+            <IonLabel text-wrap>3. Face pull 4x8 <IonCheckbox slot="start"></IonCheckbox><IonItem>
+        
+        <IonInput placeholder="Enter comment"></IonInput>
+      </IonItem></IonLabel>
           </IonItem>
 
          

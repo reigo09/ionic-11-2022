@@ -1,0 +1,7 @@
+{
+  "name": "gyminfo",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

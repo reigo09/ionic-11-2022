@@ -1,5 +1,5 @@
-import { IonButtons, IonContent, IonHeader, IonMenuButton, IonPage, IonTitle, IonToolbar } from '@ionic/react';
-import { IonCard, IonCardContent, IonCardHeader, IonCardTitle, IonItem, IonLabel, IonList, IonThumbnail } from '@ionic/react';
+import { IonButtons, IonContent, IonHeader,IonCheckbox, IonMenuButton, IonPage, IonTitle, IonToolbar } from '@ionic/react';
+import { IonCard, IonCardContent, IonCardHeader, IonCardTitle, IonItem,IonInput, IonLabel, IonList, IonThumbnail } from '@ionic/react';
 
 const Page = () => {
 
@@ -34,21 +34,30 @@ const Page = () => {
             <IonThumbnail slot="start">
               <img alt="Silhouette of mountains" src="assets/pildid/bic1.jpg" />
             </IonThumbnail>
-            <IonLabel text-wrap>1. Standing cable curl 4x8</IonLabel>
+            <IonLabel text-wrap>1. Standing cable curl 4x8 <IonCheckbox slot="start"></IonCheckbox><IonItem>
+        
+        <IonInput placeholder="Enter comment"></IonInput>
+      </IonItem></IonLabel>
           </IonItem>
 
           <IonItem>
             <IonThumbnail slot="start">
               <img alt="Silhouette of mountains" src="assets/pildid/bic3.jpg" />
             </IonThumbnail>
-            <IonLabel text-wrap>2. Preacher hammer DB curl 4x8</IonLabel>
+            <IonLabel text-wrap>2. Preacher hammer DB curl 4x8 <IonCheckbox slot="start"></IonCheckbox><IonItem>
+        
+        <IonInput placeholder="Enter comment"></IonInput>
+      </IonItem></IonLabel>
           </IonItem>
 
           <IonItem>
             <IonThumbnail slot="start">
               <img alt="Silhouette of mountains" src="assets/pildid/bic4.jpg" />
             </IonThumbnail>
-            <IonLabel text-wrap>3. One-arm DB preacher curl 4x8</IonLabel>
+            <IonLabel text-wrap>3. One-arm DB preacher curl 4x8 <IonCheckbox slot="start"></IonCheckbox><IonItem>
+        
+        <IonInput placeholder="Enter comment"></IonInput>
+      </IonItem></IonLabel>
           </IonItem>
 
 
@@ -70,21 +79,30 @@ const Page = () => {
             <IonThumbnail slot="start">
               <img alt="Silhouette of mountains" src="assets/pildid/bic5.jpg" />
             </IonThumbnail>
-            <IonLabel text-wrap>1. Incline hammer curl 4x8</IonLabel>
+            <IonLabel text-wrap>1. Incline hammer curl 4x8 <IonCheckbox slot="start"></IonCheckbox><IonItem>
+        
+        <IonInput placeholder="Enter comment"></IonInput>
+      </IonItem></IonLabel>
           </IonItem>
 
           <IonItem>
             <IonThumbnail slot="start">
               <img alt="Silhouette of mountains" src="assets/pildid/bic7.jpg" />
             </IonThumbnail>
-            <IonLabel text-wrap>2. Standing barbell curl 4x8</IonLabel>
+            <IonLabel text-wrap>2. Standing barbell curl 4x8 <IonCheckbox slot="start"></IonCheckbox><IonItem>
+        
+        <IonInput placeholder="Enter comment"></IonInput>
+      </IonItem></IonLabel>
           </IonItem>
 
           <IonItem>
             <IonThumbnail slot="start">
               <img alt="Silhouette of mountains" src="assets/pildid/bic6.jpg" />
             </IonThumbnail>
-            <IonLabel text-wrap>3. Spider curl 4x8</IonLabel>
+            <IonLabel text-wrap>3. Spider curl 4x8 <IonCheckbox slot="start"></IonCheckbox><IonItem>
+        
+        <IonInput placeholder="Enter comment"></IonInput>
+      </IonItem></IonLabel>
           </IonItem>
 
 
@@ -99,7 +117,7 @@ const Page = () => {
 
     <IonCard>
       <IonCardHeader>
-        <IonCardTitle color ="tertiary">Biceps day 3</IonCardTitle>
+        <IonCardTitle color ="tertiary">Biceps day 3 <IonCheckbox slot="start"></IonCheckbox></IonCardTitle>
         {/* <IonCardSubtitle>Card Subtitle</IonCardSubtitle> */}
       </IonCardHeader>
       <IonCardContent>
@@ -108,21 +126,30 @@ const Page = () => {
             <IonThumbnail slot="start">
               <img alt="Silhouette of mountains" src="/assets/pildid/mbic.jpeg" />
             </IonThumbnail>
-            <IonLabel text-wrap>1. Machine preacher curl 4x8</IonLabel>
+            <IonLabel text-wrap>1. Machine preacher curl 4x8 <IonCheckbox slot="start"></IonCheckbox><IonItem>
+        
+        <IonInput placeholder="Enter comment"></IonInput>
+      </IonItem></IonLabel>
           </IonItem>
 
           <IonItem>
             <IonThumbnail slot="start">
               <img alt="Silhouette of mountains" src="assets/pildid/bic2.jpg" />
             </IonThumbnail>
-            <IonLabel text-wrap>2. Cable hammer curl (rope attachment) 4x8</IonLabel>
+            <IonLabel text-wrap>2. Cable hammer curl (rope attachment) 4x8 <IonCheckbox slot="start"></IonCheckbox><IonItem>
+        
+        <IonInput placeholder="Enter comment"></IonInput>
+      </IonItem></IonLabel>
           </IonItem>
 
           <IonItem>
             <IonThumbnail slot="start">
               <img alt="Silhouette of mountains" src="assets/pildid/bic8.jpg" />
             </IonThumbnail>
-            <IonLabel text-wrap>3. Overhead cable curl 4x8</IonLabel>
+            <IonLabel text-wrap>3. Overhead cable curl 4x8 <IonCheckbox slot="start"></IonCheckbox><IonItem>
+        
+        <IonInput placeholder="Enter comment"></IonInput>
+      </IonItem></IonLabel>
           </IonItem>
 
 
